@@ -3,6 +3,9 @@ import config from './config';
 
 const CURRENCIES: { [key: string]: string[] } = {
   BTC: ['RENBTC']
+  // TODO: Update with fiat pegs
+  // SAR: ['SAR']
+  // USD: ['USD']
 };
 
 const createFetcher = (exchange: string): FetcherInterface => {
