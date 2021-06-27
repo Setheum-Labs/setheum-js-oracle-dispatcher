@@ -9,7 +9,7 @@
     "start": "ts-node src/index.ts"
   },
   "dependencies": {
-    "@setheum-js/api": "^0.7.4-8",
+    "@setheum-js/api": "^0.1.0",
     "@open-web3/api": "^0.9.4-3",
     "@open-web3/app-util": "^0.9.4-3",
     "@open-web3/dispatcher": "^0.9.4-3",
