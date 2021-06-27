@@ -6,7 +6,7 @@ import { defaultLogger, HeartbeatGroup } from '@open-web3/util';
 
 const logger = defaultLogger.createLogger('dex');
 
-const BASE_CURRENCY_ID = { Token: 'AUSD' };
+const BASE_CURRENCY_ID = { Token: 'USDJ' };
 
 // if more than `ARBITRAGE_RATIO`, do swap; 3%
 const ARBITRAGE_RATIO = 0.03;
